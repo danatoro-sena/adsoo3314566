@@ -8,8 +8,11 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
         body {
-            background: linear-gradient(rgb(125, 227, 245), rgb(241, 249, 255));
-            color: white;
+            background-color: #77EBFF;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg stroke='%2315CAFF' stroke-width='66.7' stroke-opacity='0.05' %3E%3Ccircle fill='%2377EBFF' cx='0' cy='0' r='1800'/%3E%3Ccircle fill='%2382ecff' cx='0' cy='0' r='1700'/%3E%3Ccircle fill='%238ceeff' cx='0' cy='0' r='1600'/%3E%3Ccircle fill='%2396efff' cx='0' cy='0' r='1500'/%3E%3Ccircle fill='%239ff0ff' cx='0' cy='0' r='1400'/%3E%3Ccircle fill='%23a7f1ff' cx='0' cy='0' r='1300'/%3E%3Ccircle fill='%23b0f2ff' cx='0' cy='0' r='1200'/%3E%3Ccircle fill='%23b8f4ff' cx='0' cy='0' r='1100'/%3E%3Ccircle fill='%23bff5ff' cx='0' cy='0' r='1000'/%3E%3Ccircle fill='%23c7f6ff' cx='0' cy='0' r='900'/%3E%3Ccircle fill='%23cff7ff' cx='0' cy='0' r='800'/%3E%3Ccircle fill='%23d6f8ff' cx='0' cy='0' r='700'/%3E%3Ccircle fill='%23ddf9ff' cx='0' cy='0' r='600'/%3E%3Ccircle fill='%23e4fbff' cx='0' cy='0' r='500'/%3E%3Ccircle fill='%23ebfcff' cx='0' cy='0' r='400'/%3E%3Ccircle fill='%23f2fdff' cx='0' cy='0' r='300'/%3E%3Ccircle fill='%23f8feff' cx='0' cy='0' r='200'/%3E%3Ccircle fill='%23FFFFFF' cx='0' cy='0' r='100'/%3E%3C/g%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover;
+            color: rgb(119, 175, 226);
             font-family: Poppins; 
             display: flex;
             justify-content: center;
@@ -40,7 +43,7 @@
                 gap: 0.6rem;
                 a:link, a:visited {
                     background-color: lch(87.53% 24.1 226.89 / 0.87);
-                    color:rgb(255, 255, 255);
+                    color:rgb(119, 175, 226);
                     border-radius: 12rem;
                     padding: 0.4rem;
                     display: flex;
@@ -57,7 +60,22 @@
                         width: 80px;
                         height: 80px;
                     }
-
+                    h4 {
+                    margin: 0;
+                    text-align: left;
+                    text-indent: 0.2rem;
+                    width: 225px;
+                }
+                small {
+                    display: block
+                    font-size: 0.7rem;
+                    text-indent: 0.2rem;
+                    width: 225px;
+                }
+                transition: transform 0.4s ease-in;
+                &:hover {
+                    transform: scale(1.01) translateX(12px);
+                }
             }
         }
     </style>
@@ -72,7 +90,7 @@
     <h4>Dana toro</h4>
     <menu>
 
-        <a href="01-emmet/">
+        <a href="01-emmet/index.html">
             <span>01</span>
             <aside>
                 <h4>Emmet</h4>
