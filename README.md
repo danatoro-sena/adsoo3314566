@@ -11,7 +11,7 @@
 |04  | Javasacript |Behavior - Programing Languege        |
 
 
-![Dana Toro](https://adsoo3314566.vercel.app/foto.jpeg)
+![Dana Toro](https://adsoo3314566.vercel.app/src/imgs/foto.jpeg)
 
 [ADSO Files DRIVE](https://tinyurl.com/wnkk334u)
 
