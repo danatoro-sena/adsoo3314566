@@ -1,0 +1,136 @@
+header {
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1rem;
+        color: #fff9;
+    }
+
+    h1,
+    h2 {
+        text-align: center;
+    }
+}
+
+section {
+    background-color: #0009;
+    border-radius: 0.2rem;
+    min-width: 380px;
+    margin-top: 2rem;
+    padding: 1rem;
+
+    h3 {
+        border-bottom: 2px dotted #fff;
+        margin: 0;
+    }
+
+    p {
+        color: #fff9;
+    }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-color: #8A6499;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg fill-opacity='0.6'%3E%3Ccircle fill='%238A6499' cx='50' cy='0' r='50'/%3E%3Cg fill='%23886299' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%23876099' cx='50' cy='100' r='50'/%3E%3Cg fill='%23855e99' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%23845c99' cx='50' cy='200' r='50'/%3E%3Cg fill='%23825a99' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%23805899' cx='50' cy='300' r='50'/%3E%3Cg fill='%237f5699' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%237d5499' cx='50' cy='400' r='50'/%3E%3Cg fill='%237b5299' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%23794f99' cx='50' cy='500' r='50'/%3E%3Cg fill='%23784d99' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%23764b99' cx='50' cy='600' r='50'/%3E%3Cg fill='%23744899' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%23724599' cx='50' cy='700' r='50'/%3E%3Cg fill='%23704399' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%236e4099' cx='50' cy='800' r='50'/%3E%3Cg fill='%236c3d99' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%236a3a99' cx='50' cy='900' r='50'/%3E%3Cg fill='%23683799' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%23663399' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: contain;
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100dvh;
+
+    main {
+        h1 {
+            font-size: 2.8 rem;
+            text-align: center;
+            margin: 0;
+        }
+
+        img {
+            border: 10px solid rgb(250, 250, 250);
+            border-radius: 10%;
+            height: 245px;
+            display: flex;
+            margin: 1rem auto;
+            object-fit: cover;
+            width: 240px;
+        }
+
+        h4 {
+            text-align: center;
+            font-size: 1.2rem;
+            font-weight: 400;
+        }
+    }
+
+    a.btn-home {
+        border: #ffffff solid 2px;
+        border-radius: 12rem;
+        position: fixed;
+        display: flex;
+        width: 32px;
+        height: 32px;
+        opacity: 0.4;
+        padding: 0.4rem;
+        inset: 0.4rem;
+        transition: all 0.2s ease-in;
+    }
+
+    a.btn-home:hover {
+        transform: scale(1.1);
+        opacity: 1;
+    }
+
+    menu {
+        display: flex;
+        flex-direction: column;
+        gap: 0.6rem;
+
+        a:link,
+        a:visited {
+            background-color: lch(100% 0.01 296.81 / 0.87);
+            color: rgb(0, 0, 0);
+            border-radius: 12rem;
+            padding: 0.4rem;
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+
+            span {
+                background-color: #663399;
+                color: black;
+                border-radius: 50%;
+                font-size: 2rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 80px;
+                height: 80px;
+            }
+
+            h4 {
+                margin: 0;
+                text-align: left;
+                text-indent: 0.4rem;
+                width: 225px;
+            }
+
+            small {
+                display: block font-size: 0.7rem;
+                text-indent: 0.2rem;
+                width: 225px;
+            }
+
+            transition: transform 0.4s ease-in;
+
+            &:hover {
+                transform: scale(1.01) translateX(12px);
+            }
+        }
+    }
