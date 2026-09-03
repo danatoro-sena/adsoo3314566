@@ -55,11 +55,9 @@ body {
         }
 
         img {
-            border: 10px solid rgb(250, 250, 250);
             border-radius: 10%;
             height: 245px;
             display: flex;
-            margin: 1rem auto;
             object-fit: cover;
             width: 240px;
         }
